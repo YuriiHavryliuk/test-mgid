@@ -5,3 +5,22 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+
+.btn{
+	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 4px 10px;
+	border-radius: 4px;
+	text-decoration: none;
+	background-color: #27ae60;
+	border: none;
+	outline: none;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+
+		&:hover{
+			opacity: 0.8;
+			transition: 0.3s linear;
+
+	}
+}
