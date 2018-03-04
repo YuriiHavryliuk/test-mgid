@@ -1,9 +1,9 @@
 <header class="header">
-	<div class="header__info">
+	<div class="header__info js-menu">
 		<div class="container header__cont">
 		<h1 class="header__logo">layout</h1>
-		<nav class="header__nav">
-			<ul class="header__menu menu">
+		<nav class="header__nav mobile-hide">
+			<ul class="header__menu menu mobile-hide js-menu-item" data-menu-order="0">
 				<li class="menu__item">
 					<a class="menu__link" href="#">html</a>
 				</li>
@@ -15,8 +15,13 @@
 				</li>
 			</ul>
 		</nav>
-		<a href="#form-reg" type="button" class="btn js-scroll">enter</a>
+		<a href="#form-reg" type="button" class="btn js-scroll mobile-hide js-menu-item" data-menu-order="1">enter</a>
 	</div>
+		<div class="burger header__burger js-menu-trigger">
+			<span class="burger__i"></span>
+			<span class="burger__i"></span>
+			<span class="burger__i"></span>
+		</div>
 	</div>
 	<div class="header__slider slider">
 		<div class="slider__item slide-fade js-slide">
@@ -68,3 +73,7 @@
 	</div>
 
 </header>
+<div class="menu-m">
+	<div class="container">
+	</div>
+</div>

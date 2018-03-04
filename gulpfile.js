@@ -62,16 +62,16 @@ gulp.task('img', function() {
 gulp.task('build', ['clean', 'img', 'sass', 'nunjucks'], function() {
 
 	var buildCss = gulp.src([
-		'src/css/main.min.css'])
+		'src/css/main.css'])
 	.pipe(gulp.dest('docs/css'))
 
-	var buildFonts = gulp.src('src/fonts/**/*')
-	.pipe(gulp.dest('docs/fonts'))
+	var buildFonts = gulp.src('src/font/**/*')
+	.pipe(gulp.dest('docs/font'))
 
 	var buildJs = gulp.src('src/script/**/*')
 	.pipe(gulp.dest('docs/script'))
 
-	var buildHtml = gulp.src('docs/*.html')
+	var buildHtml = gulp.src('src/*.html')
 	.pipe(gulp.dest('docs'));
 
 });
