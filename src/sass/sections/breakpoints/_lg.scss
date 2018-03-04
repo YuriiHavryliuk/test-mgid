@@ -8,5 +8,12 @@
         right: 19%;
         max-width: 36%;
     }
-
+    .menu-open .menu-m{
+        display: none;
+    }
+    .slider {
+        &__img {
+            height: 350px;
+        }
+    }
 }
