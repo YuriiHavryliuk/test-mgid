@@ -3,4 +3,16 @@
     .container{
 		width: 720px;
     }
+
+  .slider{
+
+    &__text{
+      font-size: 42px;
+      margin-bottom: 0;
+    }
+    & .container-slide-text{
+      right: 21%;
+      max-width: 40%;
+    }
+  }
 }

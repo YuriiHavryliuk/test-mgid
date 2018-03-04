@@ -3,4 +3,39 @@
     .container{
         width: 540px;
     }
+
+    .slider{
+
+        &__text{
+            font-size: 30px;
+            line-height: 32px;
+            margin-bottom: 10px;
+        }
+        & .container-slide-text{
+            right: 23%;
+            max-width: 40%;
+        }
+        & .btn{
+            padding: 5px 16px;
+            font-size: 16px;
+        }
+    }
+    .about{
+
+        &__info{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__slills{
+            width: 100%;
+        }
+        &__text{
+            font-size: 23px;
+        }
+        &_photo{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
 }

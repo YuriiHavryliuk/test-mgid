@@ -55,13 +55,16 @@ function showSlides(n) {
         scrollHeight: 140
     });
 
-
     //implementation of bars
-        jQuery('.js-skillbar').each(function(){
-            jQuery(this).find('.js-skillbar__bar').animate({
-                width:jQuery(this).attr('data-percent')
-            },4000);
-        });
+    $((window).onscroll = function() {
+        if ($(window).scrollTop() > 200) {
+            jQuery('.js-skillbar').each(function () {
+                jQuery(this).find('.js-skillbar__bar').animate({
+                    width: jQuery(this).attr('data-percent')
+                }, 4000);
+            });}
+
+    });
 
 }(window.jQuery, window, document));
 
@@ -69,7 +72,5 @@ function showSlides(n) {
 //Copyrighting year of footer
 var year = new Date().getFullYear();
 document.getElementById('footer__year').innerHTML = year;
-
-
 
 
