@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d03d493b-0c85-4a7e-be0a-2dcfe0caa0f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/_header.scss" afterPath="$PROJECT_DIR$/src/sass/sections/_header.scss" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/_section-about.scss" afterPath="$PROJECT_DIR$/src/sass/sections/_section-about.scss" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/breakpoints/_lg.scss" afterPath="$PROJECT_DIR$/src/sass/sections/breakpoints/_lg.scss" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/breakpoints/_md.scss" afterPath="$PROJECT_DIR$/src/sass/sections/breakpoints/_md.scss" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/breakpoints/_sm.scss" afterPath="$PROJECT_DIR$/src/sass/sections/breakpoints/_sm.scss" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/breakpoints/_xl.scss" afterPath="$PROJECT_DIR$/src/sass/sections/breakpoints/_xl.scss" />
-      <change beforePath="$PROJECT_DIR$/src/sass/sections/breakpoints/_xs.scss" afterPath="$PROJECT_DIR$/src/sass/sections/breakpoints/_xs.scss" />
-      <change beforePath="$PROJECT_DIR$/src/script/script.js" afterPath="$PROJECT_DIR$/src/script/script.js" />
-      <change beforePath="$PROJECT_DIR$/src/template/parts/_header.html" afterPath="$PROJECT_DIR$/src/template/parts/_header.html" />
-    </list>
+    <list default="true" id="d03d493b-0c85-4a7e-be0a-2dcfe0caa0f2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -235,7 +223,7 @@
       <workItem from="1520085922112" duration="6770000" />
       <workItem from="1520098453349" duration="94000" />
       <workItem from="1520107794562" duration="35172000" />
-      <workItem from="1520160961622" duration="14040000" />
+      <workItem from="1520160961622" duration="14279000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted .idea">
       <created>1520073785928</created>
@@ -255,18 +243,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85357000" />
+    <option name="totallyTimeSpent" value="85596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1315" height="732" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2782462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2782462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25968993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
