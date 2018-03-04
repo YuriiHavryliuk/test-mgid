@@ -10,4 +10,4 @@ Clone this repo and then in command line type:
 
 --
 
-<a href="https://yuriihavryliuk.github.io/test-mgid/docs"></a>
+<a href="https://yuriihavryliuk.github.io/test-mgid/docs">Test-mgid</a>
