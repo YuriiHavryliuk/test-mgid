@@ -6,6 +6,11 @@
 
 // Your styles:
 @import 'sections/_header';
+@import 'sections/_section-about';
+@import 'sections/_section-register';
+@import 'sections/_footer';
+
+@import '_drop-down';
 
 @import "sections/breakpoints/xl";
 @import "sections/breakpoints/lg";

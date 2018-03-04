@@ -1,4 +1,5 @@
 .header {
+    height: 100vh;
 
     &__cont{
         display: flex;
@@ -42,7 +43,7 @@
 
 .slider{
     position: relative;
-    margin: auto;
+    margin-bottom: -5px;
 
     &__img{
         object-fit: cover;
