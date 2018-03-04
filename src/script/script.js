@@ -56,6 +56,13 @@ function showSlides(n) {
     });
 
 
+    //implementation of bars
+        jQuery('.js-skillbar').each(function(){
+            jQuery(this).find('.js-skillbar__bar').animate({
+                width:jQuery(this).attr('data-percent')
+            },4000);
+        });
+
 }(window.jQuery, window, document));
 
 
