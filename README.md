@@ -9,3 +9,5 @@ Clone this repo and then in command line type:
 * `gulp build` - build project from sources
 
 --
+
+<a href="https://yuriihavryliuk.github.io/test-mgid/docs"></a>
