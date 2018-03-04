@@ -1,4 +1,6 @@
 .about{
+    overflow-x: hidden;
+    position: relative;
     &__text{
         margin: 20px 0;
         line-height: 36px;
@@ -10,6 +12,8 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        height: 100%;
+        overflow-x: hidden;
 
     }
     &__title{
@@ -36,6 +40,7 @@
     }
     &__photo{
         position: relative;
+        transition: 0.5s linear;
 
         &:hover{
             opacity: 0.9;
@@ -73,7 +78,7 @@
         top:0;
         left:0;
         width:20%;
-        font-size:1vw;
+        font-size:16px;
         color:whitesmoke;
         background-color: #36c773;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
@@ -83,7 +88,7 @@
     &__title {
         display:block;
         background:rgba(0, 0, 0, 0.1);
-        padding:0 20px;
+        text-align: center;
         height:20px;
         line-height:20px;
         font-weight: bold;

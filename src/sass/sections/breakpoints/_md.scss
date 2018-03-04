@@ -5,10 +5,9 @@
     }
 
   .slider{
-
     &__text{
       font-size: 36px;
-      margin-bottom: 0;
+      margin-bottom: 10px;
       line-height: 40px;
     }
     & .container-slide-text{
@@ -19,11 +18,22 @@
       padding: 3px 15px;
     }
     &__img{
-      max-height: 255px;
+      height: 300px;
     }
+  }
+  .skillbar__title-block {
+    font-size: 11px;
   }
 }
 
-@media (max-width: 991px){
-
+@media (max-width: 990px) {
+  .mobile-hide {
+    display: none;
+  }
+  .burger{
+    display: block !important;
+    position: absolute;
+    top: 8px;
+    right: 5px;
+  }
 }

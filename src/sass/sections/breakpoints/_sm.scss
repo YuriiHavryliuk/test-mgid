@@ -20,11 +20,9 @@
             font-size: 16px;
         }
         &__img{
-            max-height: 185px;
+            height: 250px;
         }
 
-        element.style {
-        }
         .slider__prev:hover, .slider__next:hover {
             background-color: rgba(0, 0, 0, 0.1);
             -webkit-transition: 0.3s linear;

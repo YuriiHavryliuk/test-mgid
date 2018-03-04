@@ -4,8 +4,10 @@
     .container{
         width: 1140px;
     }
-    & .slider__img{
-        max-height: 390px;
+    .slider {
+        &__img {
+            height: 420px;
+        }
     }
 }
 
