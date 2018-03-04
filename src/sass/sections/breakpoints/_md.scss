@@ -3,4 +3,27 @@
     .container{
 		width: 720px;
     }
+
+  .slider{
+
+    &__text{
+      font-size: 36px;
+      margin-bottom: 0;
+      line-height: 40px;
+    }
+    & .container-slide-text{
+      right: 21%;
+      max-width: 40%;
+    }
+    & .btn{
+      padding: 3px 15px;
+    }
+    &__img{
+      max-height: 255px;
+    }
+  }
+}
+
+@media (max-width: 991px){
+
 }
